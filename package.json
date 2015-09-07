@@ -1,0 +1,31 @@
+{
+  "name": "senpai",
+  "version": "0.0.0",
+  "description": "Notice me senpai! A gracefull degrading notification API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3rd-Eden/senpai.git"
+  },
+  "keywords": [
+    "senpai",
+    "notice",
+    "notification",
+    "notify",
+    "notifications",
+    "noted"
+  ],
+  "author": "Arnout Kazemier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/3rd-Eden/senpai/issues"
+  },
+  "homepage": "https://github.com/3rd-Eden/senpai#readme",
+  "dependencies": {
+    "emits": "3.0.x",
+    "eventemitter3": "1.1.x"
+  }
+}
