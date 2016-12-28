@@ -22,6 +22,7 @@ function Notify(title, options) {
   var notify = this;
 
   if (!(notify instanceof Notify)) return new Notify(title, options);
+  EventEmitter.call(this);
 
   //
   // Provide some sane defaults.
